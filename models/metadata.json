@@ -1,0 +1,46 @@
+{
+  "model_name": "RandomForest",
+  "training_date": "2025-12-22T20:13:26.618579",
+  "sklearn_version": "1.7.2",
+  "target_variable": "is_delayed",
+  "delay_threshold_minutes": 15,
+  "target_rule": "is_delayed = 1 if dep_delay > 15 minutes, else 0",
+  "features": {
+    "categorical": [
+      "op_unique_carrier",
+      "origin",
+      "origin_city_name",
+      "origin_state_nm",
+      "dest",
+      "dest_city_name",
+      "dest_state_nm",
+      "cancellation_code",
+      "time_slot"
+    ],
+    "numeric": [
+      "op_carrier_fl_num",
+      "cancelled",
+      "diverted",
+      "distance",
+      "carrier_delay",
+      "weather_delay",
+      "nas_delay",
+      "security_delay",
+      "late_aircraft_delay",
+      "is_weekend"
+    ],
+    "total": 19
+  },
+  "metrics": {
+    "accuracy": 0.85734,
+    "precision": 0.9684407301517484,
+    "recall": 0.386509260071974,
+    "f1_score": 0.5525094102885821,
+    "roc_auc": 0.9222153713190899,
+    "avg_precision": 0.8728469214778943
+  },
+  "test_size": 0.2,
+  "random_state": 42,
+  "training_samples": 400000,
+  "test_samples": 100000
+}

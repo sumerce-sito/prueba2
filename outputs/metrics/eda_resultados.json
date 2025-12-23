@@ -1,0 +1,160 @@
+{
+  "dataset": {
+    "registros": 100000,
+    "columnas": 37,
+    "periodo": "2024-01-01 00:00:00 a 2024-01-06 00:00:00"
+  },
+  "variable_objetivo": {
+    "puntuales": 83857,
+    "retrasados": 16143,
+    "porcentaje_retrasados": 16.143,
+    "ratio_desbalance": 5.19463544570402
+  },
+  "estadisticas_retrasos": {
+    "media": 31.888505251043014,
+    "mediana": 14.0,
+    "desv_std": 67.64365460769596,
+    "p75": 34.0,
+    "p90": 71.0,
+    "p95": 112.0
+  },
+  "analisis_aerolineas": {
+    "peores": [
+      {
+        "Aerolínea": "B6",
+        "Tasa_Retraso": 30.49,
+        "Total_Vuelos": 4054
+      },
+      {
+        "Aerolínea": "NK",
+        "Tasa_Retraso": 27.76,
+        "Total_Vuelos": 4380
+      },
+      {
+        "Aerolínea": "G4",
+        "Tasa_Retraso": 21.52,
+        "Total_Vuelos": 2389
+      },
+      {
+        "Aerolínea": "F9",
+        "Tasa_Retraso": 20.47,
+        "Total_Vuelos": 3058
+      },
+      {
+        "Aerolínea": "WN",
+        "Tasa_Retraso": 20.16,
+        "Total_Vuelos": 21072
+      },
+      {
+        "Aerolínea": "AA",
+        "Tasa_Retraso": 19.74,
+        "Total_Vuelos": 14894
+      },
+      {
+        "Aerolínea": "AS",
+        "Tasa_Retraso": 18.83,
+        "Total_Vuelos": 3893
+      },
+      {
+        "Aerolínea": "HA",
+        "Tasa_Retraso": 15.77,
+        "Total_Vuelos": 1325
+      },
+      {
+        "Aerolínea": "MQ",
+        "Tasa_Retraso": 14.2,
+        "Total_Vuelos": 4135
+      },
+      {
+        "Aerolínea": "OO",
+        "Tasa_Retraso": 11.9,
+        "Total_Vuelos": 8913
+      }
+    ],
+    "mejores": [
+      {
+        "Aerolínea": "AA",
+        "Tasa_Retraso": 19.74,
+        "Total_Vuelos": 14894
+      },
+      {
+        "Aerolínea": "AS",
+        "Tasa_Retraso": 18.83,
+        "Total_Vuelos": 3893
+      },
+      {
+        "Aerolínea": "HA",
+        "Tasa_Retraso": 15.77,
+        "Total_Vuelos": 1325
+      },
+      {
+        "Aerolínea": "MQ",
+        "Tasa_Retraso": 14.2,
+        "Total_Vuelos": 4135
+      },
+      {
+        "Aerolínea": "OO",
+        "Tasa_Retraso": 11.9,
+        "Total_Vuelos": 8913
+      },
+      {
+        "Aerolínea": "UA",
+        "Tasa_Retraso": 9.89,
+        "Total_Vuelos": 9793
+      },
+      {
+        "Aerolínea": "OH",
+        "Tasa_Retraso": 9.61,
+        "Total_Vuelos": 2767
+      },
+      {
+        "Aerolínea": "DL",
+        "Tasa_Retraso": 8.97,
+        "Total_Vuelos": 13592
+      },
+      {
+        "Aerolínea": "9E",
+        "Tasa_Retraso": 7.35,
+        "Total_Vuelos": 2940
+      },
+      {
+        "Aerolínea": "YX",
+        "Tasa_Retraso": 3.65,
+        "Total_Vuelos": 2795
+      }
+    ],
+    "promedio_general": 16.020666666666667
+  },
+  "analisis_temporal": {
+    "por_hora": {
+      "por_hora": {
+        "0": 16.143
+      },
+      "pico": 0,
+      "minimo": 0,
+      "franjas": {
+        "madrugada": 16.143,
+        "mañana": NaN,
+        "tarde": NaN,
+        "noche": NaN
+      }
+    },
+    "por_dia_semana": {
+      "por_dia": {
+        "Martes": 12.452939472922097,
+        "Miércoles": 18.11139800811509,
+        "Jueves": 18.623110151187905,
+        "Viernes": 12.902690136167386,
+        "Sábado": 13.352476669059584,
+        "Domingo": 26.01787487586892
+      },
+      "semana_vs_finde": {
+        "semana": 15.08852288749041,
+        "fin_semana": 26.01787487586892
+      }
+    },
+    "por_mes": {
+      "Enero": 16.143
+    }
+  }
+}

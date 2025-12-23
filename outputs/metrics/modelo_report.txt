@@ -1,0 +1,11 @@
+REPORTE DE CLASIFICACIÓN
+============================================================
+
+               precision    recall  f1-score   support
+
+  Puntual (0)     0.8462    0.9963    0.9151     77214
+Retrasado (1)     0.9684    0.3865    0.5525     22786
+
+     accuracy                         0.8573    100000
+    macro avg     0.9073    0.6914    0.7338    100000
+ weighted avg     0.8741    0.8573    0.8325    100000
