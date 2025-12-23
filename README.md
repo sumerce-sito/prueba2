@@ -1,5 +1,7 @@
 # ✈️ FlightOnTime - Predicción de Retrasos de Vuelos
 
+# Dataset: Los datos son muy pesados para GitHub. Descárgalos aquí: https://drive.google.com/drive/folders/1Eosl5KbyiSLcvY5NEr9ztoYO47xY5C6M?usp=sharing
+
 > **Proyecto de Data Science para Hackathon**  
 > Clasificación binaria: predecir si un vuelo llegará puntual o retrasado
 
@@ -255,3 +257,4 @@ Las contribuciones son bienvenidas. Por favor:
 ---
 
 **¡Buena suerte en el hackathon! ✈️🚀**
+
